@@ -1,0 +1,307 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+nav {
+  height: 80px;
+}
+nav img {
+  width: 150px;
+  position: absolute;
+  top: 50px;
+  left: 12%;
+}
+nav ul {
+  float: right;
+  margin-right: 25px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+nav ul li a {
+  position: relative;
+  font-size: 18px;
+  padding: 5px 0;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li a ::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+label #btn,
+label #cancel {
+  float: right;
+  line-height: 112px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+.btn a {
+  color: black;
+  padding-left: 10em;
+  text-decoration: none;
+}
+
+.imghero {
+  float: right;
+  padding-top: 110px;
+}
+.text h1 {
+  padding-left: 50px;
+  padding-top: 80px;
+  font-size: 90px;
+}
+.text p {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.text a {
+  padding-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+h1 #bold {
+  color: #4caf4f;
+}
+.btns {
+  padding-left: 50px;
+}
+
+.ourclient {
+  text-align: center;
+  font-size: 20px;
+}
+.Contatiner {
+  max-width: 1170px;
+  padding-left: 12em;
+  padding-bottom: 40px;
+}
+
+.clientcard {
+  background: white;
+  width: 290px;
+  height: 250px;
+  padding-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  padding-left: 10em;
+  padding: 20px;
+  box-shadow: 10px 10px #abbed133;
+}
+.clienticon {
+  text-align: center;
+}
+.clienticon h3 {
+  font-size: 25px;
+}
+.heroimg {
+  padding-top: 50px;
+  float: left;
+}
+.herotext {
+  padding: 50px;
+}
+.herotext h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background-color: #4caf4f;
+  border: #4caf4f;
+  padding: 10px;
+}
+.abouttext h3 {
+  font-size: 3em;
+}
+h3 #bold {
+  color: #4caf4f;
+}
+.picshero {
+  float: left;
+  padding-top: 1em;
+}
+.texthero {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+.tesla {
+  float: left;
+}
+.teslatext {
+  padding-top: 40px;
+}
+.teslatext h4 {
+  color: #4caf4f;
+  font-size: 12px;
+}
+.textt {
+  text-align: center;
+}
+.textt span {
+  font-size: 20px;
+}
+.texts {
+  background: white;
+  width: 290px;
+  height: 290px;
+  padding-top: 20px;
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.texts h3 {
+  color: #4caf4f;
+  text-align: center;
+}
+text p {
+  text-align: center;
+}
+.textdemo {
+  text-align: center;
+  font-size: 70px;
+}
+.demobutton {
+  text-align: center;
+  font-size: 20px;
+}
+.footer {
+  background-color: #263238;
+  /* width: 100%;
+  height: 100%; */
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  font-size: 13px;
+  color: white;
+  line-height: 20px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col p {
+  font-size: 15px;
+  color: white;
+}
+.col h4 {
+  font-size: 25px;
+  color: white;
+  font-style: normal;
+}
+.col .logo {
+  padding-top: 40px;
+}
+.col h3 {
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.box {
+  height: 40px;
+  display: flex;
+}
+.member {
+  display: inline-flex;
+}
+
+@media screen and (max-width: 800px) {
+  .Contatiner {
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .ourclient {
+    padding-left: 30px;
+  }
+
+  .text h1 {
+    padding-left: 40px;
+    padding-top: 80px;
+    font-size: 40px;
+  }
+  .clientcard {
+    width: 290px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 10em;
+    padding: 20px;
+  }
+  .herotext {
+    padding: 1px;
+  }
+  .textdemo {
+    text-align: center;
+    font-size: 20px;
+  }
+  .row {
+    margin: auto;
+  }
+  .footer .row {
+    display: inline;
+    gap: 5em;
+  }
+  .clientimg {
+    max-width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  nav img {
+    left: 8%;
+
+    width: 130px;
+  }
+  label #btn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(167, 228, 105);
+    top: 80px;
+    left: -120%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+  }
+  nav img {
+    width: 150px;
+    position: absolute;
+    left: 12%;
+  }
+
+  nav ul li a {
+    font-size: 17px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
